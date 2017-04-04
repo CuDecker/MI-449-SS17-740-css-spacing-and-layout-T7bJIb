@@ -32,11 +32,6 @@ a {
   text-decoration: none;
 }
 
-a:hover{
-  text-decoration: underline;
-
-}
-
 .mainSection {
 	width: 90%;
 	margin: 8% auto 0 auto;
@@ -67,29 +62,6 @@ color: #FFF;
 font-size: 1.3em;
 }
 
-.nav a{
-	color: #FFF;
-	text-decoration: none;
-}
-
-.nav a:hover{
-  color: #bb9eff;
-
-}
-
-.mainBody {
-	padding: 1px 20px 0px 0px;
-	text-align: justify;
-}
-.mainBody p {
-	margin-top: 1em;
-	margin-bottom: 1em;
-}
-
-.darkBackground{
-  background-color: #606060;
-}
-
 .greyHeader{
   width: 97%;
 	height: 1.7em;
@@ -104,34 +76,9 @@ font-size: 1.3em;
 	background-color: #d7d7d7;
 }
 
-.greyHeader-1{
-padding: 0 11% 0 11%;
-}
-
-.greyHeader-2{
-padding: 0 11% 0 11%;
-}
-
-.greyHeader-3{
-padding: 0 0 0 11%;
-}
-
-.greyHeader-4{
-padding: 0 0 0 15%;
-}
-
 .leftimg {
 	float: left;
 	margin: 1% 20px 0px 1%;
-}
-
-.left {
-	float: left;
-	margin: 0px 0px 0px 0px
-}
-
-.right {
-	float: left;
 }
 
 .socialBar {
@@ -152,11 +99,6 @@ padding: 0 0 0 15%;
 
 .socialImg:hover{
 	border: 5px solid #bb9eff;
-}
-
-.Text {
-  text-align: justify;
-  padding: 3% 10% 0 10%
 }
 
 /* Flex */
@@ -185,64 +127,17 @@ padding: 0 0 0 15%;
 	display:inline-block;
 }
 
-/* Index Specifics */
-.indexImg {
-  margin-top: -100px;
-
-}
-
-.indexBody {
-  margin-top: 150px;
-
-}
-
-.indexText {
-  text-align: justify;
-  padding: 0% 10% 0 10%
-}
-
-/* Personal Specifics */
 .personalText {
   text-align: justify;
   padding: 3% 10% 0 10%
 }
-
-/* Skill/Professional Specifics */
-.skillImg {
-  border: 15px solid #d7d7d7;
-	border-radius: 20%;
-	width: 250px;
-  height: 200px;
-}
-
-/* Javascript stuff */
-
-#showhide {
- display: none;
-}
-
-.button {
-  cursor: pointer;
-}
-.button:hover{
-  color: #bb9eff;
-}
-
-#resume {
-display: none;
-}
-
 
 /* Media Query*/
 @media only screen and (max-width: 1050px) {
   .header {
         padding: 15px 20px 0px 20px;
   }
-  .nav {
-    text-align: center;
-    display: block;
-    float: none;
-  }
+
   .leftimg{
     float: none;
     margin: 1% 0 1% 0;
