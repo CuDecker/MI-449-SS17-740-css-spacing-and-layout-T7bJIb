@@ -34,7 +34,6 @@ a {
 
 a:hover{
   text-decoration: underline;
-
 }
 
 .mainSection {
@@ -48,10 +47,10 @@ a:hover{
 }
 
 .header {
-background-color: #606060;
-padding: 15px 20px 20px 20px;
-border: 0px solid #606060;
-border-radius: 20px;
+  background-color: #606060;
+  padding: 15px 20px 20px 20px;
+  border: 0px solid #606060;
+  border-radius: 20px;
 
 }
 
@@ -61,10 +60,10 @@ border-radius: 20px;
 }
 
 .nav {
-float: right;
-padding: 10px 0px 10px 0px;
-color: #FFF;
-font-size: 1.3em;
+  float: right;
+  padding: 10px 0px 10px 0px;
+  color: #FFF;
+  font-size: 1.3em;
 }
 
 .nav a{
@@ -74,7 +73,6 @@ font-size: 1.3em;
 
 .nav a:hover{
   color: #bb9eff;
-
 }
 
 .mainBody {
@@ -95,7 +93,7 @@ font-size: 1.3em;
 	height: 1.7em;
 	margin: auto;
 	background-color: #d7d7d7;
-  margin-bottom: 1%;
+  margin-top: 10px;
 }
 
 .greyHeader h2{
@@ -165,18 +163,20 @@ padding: 0 0 0 15%;
   margin: 0;
   list-style: none;
   text-align: center;
-
-
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
 }
 
+.flexcontainer div {
+    padding-top: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 /* Hobby Specifics*/
 .hobbyImages {
