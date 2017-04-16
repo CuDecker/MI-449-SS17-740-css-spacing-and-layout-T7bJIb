@@ -120,7 +120,10 @@ padding: 0 0 0 15%;
 
 .leftimg {
 	float: left;
-	margin: 1% 20px 0px 1%;
+  margin-top: 35px;
+  margin-left: 47px;
+  margin-right: 25px;
+  margin-bottom: 10px;
 }
 
 .left {
@@ -245,9 +248,12 @@ display: none;
   }
   .leftimg{
     float: none;
-    margin: 1% 0 1% 0;
-
+    margin-top: 35px;
+    margin-left: 47px;
+    margin-right: 25px;
+    margin-bottom: 10px;
   }
+  
   .personalText {
     padding: 0 10% 0 10%;
   }
