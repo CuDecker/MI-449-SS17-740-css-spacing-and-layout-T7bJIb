@@ -3,7 +3,7 @@ html{
 	color: #606060;
   max-width: 1750px;
   margin: auto;
-  font-family: "ImprintMT Shadow", JavaneseText;
+  font-family: arial, helvetica;
 }
 
 body{
@@ -253,7 +253,7 @@ display: none;
     margin-right: 25px;
     margin-bottom: 10px;
   }
-  
+
   .personalText {
     padding: 0 10% 0 10%;
   }
